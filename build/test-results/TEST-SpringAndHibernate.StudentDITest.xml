@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SpringAndHibernate.StudentDITest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-03-13T07:08:26" hostname="peak" time="2.386">
+  <properties/>
+  <testcase name="testService_di_dao_xml_jdbc_save_findAll" classname="SpringAndHibernate.StudentDITest" time="2.386"/>
+  <system-out><![CDATA[StudentService_save
+StudentJDBCDao_save
+StudentService_findAll
+StudentJDBCDao_findAll
+jdbc:[Student{id=1, name='张三'}, Student{id=2, name='李四'}, Student{id=33, name='stu3'}, Student{id=34, name='stu_template'}, Student{id=35, name='stu_jdbc'}, Student{id=37, name='stu_hibernate_update---'}, Student{id=39, name='stu_hibernate'}, Student{id=40, name='stu_template'}, Student{id=41, name='stu_jdbc'}, Student{id=42, name='stu_hibernate'}, Student{id=43, name='stu_template'}, Student{id=44, name='stu_jdbc'}, Student{id=45, name='stu_hibernate'}, Student{id=46, name='stu_template'}, Student{id=47, name='stu_jdbc'}, Student{id=48, name='stu_hibernate'}, Student{id=49, name='stu_template'}, Student{id=50, name='stu_jdbc'}, Student{id=51, name='stu_hibernate'}, Student{id=52, name='stu_jdbc'}, Student{id=53, name='stu_hibernate'}, Student{id=54, name='stu_jdbc'}]
+]]></system-out>
+  <system-err><![CDATA[三月 13, 2016 3:08:26 下午 org.springframework.context.annotation.AnnotationConfigApplicationContext prepareRefresh
+信息: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b8330d4: startup date [Sun Mar 13 15:08:26 CST 2016]; root of context hierarchy
+三月 13, 2016 3:08:27 下午 org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+信息: Loaded JDBC driver: org.h2.Driver
+三月 13, 2016 3:08:27 下午 org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+信息: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3b764f36: startup date [Sun Mar 13 15:08:27 CST 2016]; root of context hierarchy
+三月 13, 2016 3:08:27 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from class path resource [applicationContext.xml]
+]]></system-err>
+</testsuite>
